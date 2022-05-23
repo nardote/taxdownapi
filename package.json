@@ -1,0 +1,13 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "taxdown API",
+  "scripts": {
+    "api": "json-server --watch  -p 3001 db.json"
+  },
+  "author": "Adrian Cavicchia",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
